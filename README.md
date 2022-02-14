@@ -1,2 +1,2 @@
 # homebrew-panmau
-Homebrew repository for https://github.com/panmau/switchtube-dl
+Homebrew tap for packages of [@panmau](https://github.com/panmau)
