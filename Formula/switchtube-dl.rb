@@ -7,7 +7,7 @@ class SwitchtubeDl < Formula
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/releases/download/0.0.8-alpha.0.1/switchtube-dl.0.0.8-alpha.0.1.osx-x64.tar.gz"
-      sha256 "ea3f8882b22b80bcc5fb1854b07944d31eeb6c4b2480eb691d2c42275697db3e"
+      sha256 "301aa79e248211749695e814f6d75f024ee4a947bb2d3f715ee35d6e59465670"
 
       def install
         cp_r '.', bin
@@ -16,7 +16,7 @@ class SwitchtubeDl < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/releases/download/0.0.8-alpha.0.1/switchtube-dl.0.0.8-alpha.0.1.osx-arm64.tar.gz"
-      sha256 "63b6ab48f3619276d10638601df380f233da0fcc94cec37a239b145f65e79a3d"
+      sha256 "4948a1743d133d2f1d4d687e27751ff239b4cb3ce7a4cb2972c1a24a6d4a63e5"
 
       def install
         cp_r '.', bin
@@ -27,7 +27,7 @@ class SwitchtubeDl < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/releases/download/0.0.8-alpha.0.1/switchtube-dl.0.0.8-alpha.0.1.linux-x64.tar.gz"
-      sha256 "d8c7b6cc741d7e3587779128aaf9e784eb809c7791f01aadc0d6c7e302e0a1a3"
+      sha256 "8c970e3dfdf581b95cfdbb423ade38e59f2a1ce4ea744004c12199836f9aa645"
 
       def install
         cp_r '.', bin
@@ -36,7 +36,7 @@ class SwitchtubeDl < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
       url "https://github.com/releases/download/0.0.8-alpha.0.1/switchtube-dl.0.0.8-alpha.0.1.linux-arm.tar.gz"
-      sha256 "e4b05caf3fcb62b8f1b26d5c96d6b2e9f7ca96296d26c7d351e3762e27afca84"
+      sha256 "fe5b6eb1950adbfd5e8dd935801ab5e14161d53fd1e6758c389fe7610dde71ef"
 
       def install
         cp_r '.', bin
@@ -45,7 +45,7 @@ class SwitchtubeDl < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/releases/download/0.0.8-alpha.0.1/switchtube-dl.0.0.8-alpha.0.1.linux-arm64.tar.gz"
-      sha256 "39c9eb6ec6ba3bfd42a9f3313e7b3375e49328f47dfd0ebafd074be1912b300c"
+      sha256 "a493923bc99b6ad16262166949e2f8a4758e913fdb271d206ff5d41f066d70ba"
 
       def install
         cp_r '.', bin
