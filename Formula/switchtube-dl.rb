@@ -2,12 +2,12 @@
 class SwitchtubeDl < Formula
   desc "A simple CLI for downloading videos from SwitchTube."
   homepage "https://github.com/panmau/switchtube-dl"
-  version "0.0.7"
+  version "0.0.8"
   license "MIT"
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.7/switchtube-dl.0.0.7.osx-x64.tar.gz"
-      sha256 "ca9d3155bfceca873e782f471c1acc62cca04c91d3e11b723f926134ef65b63a"
+      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.8/switchtube-dl.0.0.8.osx-x64.tar.gz"
+      sha256 "b5b28eb0f28f9bc35f88418ddda81fba38b42a46ff37dcc883ccb09cdd7d0afc"
 
       def install
         cp_r '.', bin
@@ -15,8 +15,8 @@ class SwitchtubeDl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.7/switchtube-dl.0.0.7.osx-arm64.tar.gz"
-      sha256 "d84faed55eb9c1ad840761edbdc43d60e695ff2bca6a19a8a69dbe08a9f443af"
+      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.8/switchtube-dl.0.0.8.osx-arm64.tar.gz"
+      sha256 "9c15afe64d57878688b660ff1a307fc4c2d923a3e7ea8a048aa53b4fe10952d5"
 
       def install
         cp_r '.', bin
@@ -26,8 +26,8 @@ class SwitchtubeDl < Formula
   end
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.7/switchtube-dl.0.0.7.linux-x64.tar.gz"
-      sha256 "214aad8d15492688c409c7843981d942a391a61529e0f1607d1e61b4a1a61ddd"
+      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.8/switchtube-dl.0.0.8.linux-x64.tar.gz"
+      sha256 "b49a7f542683f8e722ed508dfb7b1479e266c80b53904aaf033c0f7b97a35bfc"
 
       def install
         cp_r '.', bin
@@ -35,8 +35,8 @@ class SwitchtubeDl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_32_bit?
-      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.7/switchtube-dl.0.0.7.linux-arm.tar.gz"
-      sha256 "fbdc137382b602b6b4af102c256ac2c68e36fcd01c59fc96bb1ddf767fffd32f"
+      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.8/switchtube-dl.0.0.8.linux-arm.tar.gz"
+      sha256 "3aa79d975d6d317cda033834d4770b7b77ccd0c98b574ca0b5d854d9bed8b184"
 
       def install
         cp_r '.', bin
@@ -44,8 +44,8 @@ class SwitchtubeDl < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.7/switchtube-dl.0.0.7.linux-arm64.tar.gz"
-      sha256 "05ed86430a2dad8ec17b983977ebd7734a101feac8c9d578567eaf74d38d766e"
+      url "https://github.com/panmau/switchtube-dl/releases/download/0.0.8/switchtube-dl.0.0.8.linux-arm64.tar.gz"
+      sha256 "86fea3028b5f67909f9235ace341f16bc1295ba42989fdfac55318579c710500"
 
       def install
         cp_r '.', bin
