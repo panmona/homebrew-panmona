@@ -1,2 +1,2 @@
-# homebrew-panmau
-Homebrew tap for packages of [@panmau](https://github.com/panmau)
+# homebrew-panmona
+Homebrew tap for packages of [@panmona](https://github.com/panmona)
